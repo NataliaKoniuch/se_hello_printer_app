@@ -10,3 +10,8 @@ script:
   - make test
   - make docker_build
   - make docker_push
+
+deploy:
+provider: heroku
+app: guarded-retreat-33986
+api_key: ${6c5d2231-9fc8-4651-8595-c57e8bf9e077}
