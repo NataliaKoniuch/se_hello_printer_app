@@ -4,7 +4,8 @@ Simple Flask App
     ...
 .. image:: https://travis-ci.org/NataliaKoniuch/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/NataliaKoniuch/se_hello_printer_app
-..image:: https://app.statuscake.com/button/index.php?Track=BI69Wh5ZnY&Days=1&Design=5
+
+.. image:: https://app.statuscake.com/button/index.php?Track=BI69Wh5ZnY&Days=1&Design=5
     :target: https://www.statuscake.com
 
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
