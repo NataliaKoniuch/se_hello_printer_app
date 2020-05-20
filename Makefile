@@ -4,11 +4,18 @@ deps:
 	pip install -r requirements.txt; \
 	pip install -r test_requirements.txt
 
+lint:
+	flake8 hello_world test
+
 test:
 	PYTHONPATH=. py.test  --verbose -s
 
-lint:
-	flake8 hello_world test
+test_cov: 
+	PYTHONPATH=. py.test  --verbose -s --cov=. --cov-report xml
+
+
+test_xunit:
+	PYTHONPATH=. py.test -s --cov=. --cov-report xml --junit-xml=test_results.xml
 
 run:
 	PYTHONPATH=. FLASK_APP=hello_world flask run
